@@ -1,0 +1,80 @@
+.home__darby {
+    background-size: cover;
+    background-image: url('../images/darby_with_tennis_ball.jpg');
+}
+
+.home__blurb__hello {
+    font-family: "Shorelines Script Bold";
+    color: #7CABDC;
+    text-align: center;
+    width: 100%;
+}
+
+.home__blurb__who-we-are {
+    font-family: "Louis George Cafe";
+    color: #7CABDC;
+    text-align: center;
+    width: 100%;
+}
+
+@media (orientation: landscape) {
+    .home {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .home__darby {
+        width: 50%;
+        height: 100%;
+        background-position: top;
+    }
+
+    .home__blurb {
+        width: 50%;
+        padding-top: 40vh;
+    }
+
+    .home__blurb__hello {
+        font-size: 8vh;
+    }
+
+    .home__blurb__who-we-are {
+        font-size: 3vh;
+    }
+}
+
+@media (orientation: landscape) and (max-width: 768px) {
+    .home__blurb {
+        padding-top: 35vh;
+    }
+
+    .home__blurb__hello {
+        font-size: 12vh;
+    }
+
+    .home__blurb__who-we-are {
+        font-size: 4vh;
+    }
+}
+
+@media (orientation: portrait) {
+    .home__darby {
+        background-size: cover;
+        height: 60vh;
+        width: 100vw;
+    }
+
+    .home__blurb {
+        width: 100vw;
+        padding-top: 6vh;
+    }
+
+    .home__blurb__hello {
+        font-size: 16vw;
+        margin-bottom: -5vw;
+    }
+
+    .home__blurb__who-we-are {
+        font-size: 5vw;
+    }
+}

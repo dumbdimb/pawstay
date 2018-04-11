@@ -30,7 +30,7 @@ const createConfig = () => {
                 {
                     test: /\.(eot|woff|woff2|ttf|svg|otf)$/,
                     include: path.join(__dirname, 'src', 'fonts'),
-                    loader: 'url-loader?limit=70000&name=fonts/[name]-[hash].[ext]'
+                    loader: 'url-loader?limit=70000&name=fonts/[name].[ext]'
                 },
                 {
                     test: /\.(jpg|svg|png)$/,

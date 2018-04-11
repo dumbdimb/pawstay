@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toolbar renders correctly 1`] = `
+<div
+  className="toolbar"
+>
+  <div
+    className="toolbar__content"
+  >
+    <div
+      className="toolbar__logo"
+    />
+    <div
+      className="toolbar__menu-item"
+    >
+      about us
+    </div>
+    <div
+      className="toolbar__menu-item"
+    >
+      our service
+    </div>
+    <div
+      className="toolbar__menu-item"
+    >
+      contact us
+    </div>
+  </div>
+</div>
+`;

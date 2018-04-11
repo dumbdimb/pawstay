@@ -1,4 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-ReactDOM.render(<div>Pawstay</div>, document.getElementById('app'));
+import '../less/main.less';
+
+import Pawstay from './components/Pawstay';
+
+ReactDOM.render(<Pawstay/>, document.getElementById('app'));
