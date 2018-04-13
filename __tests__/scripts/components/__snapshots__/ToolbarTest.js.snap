@@ -9,19 +9,23 @@ exports[`Toolbar renders correctly 1`] = `
   >
     <div
       className="toolbar__logo"
+      onClick={[Function]}
     />
     <div
       className="toolbar__menu-item"
+      onClick={[Function]}
     >
       about us
     </div>
     <div
       className="toolbar__menu-item"
+      onClick={[Function]}
     >
       our service
     </div>
     <div
       className="toolbar__menu-item"
+      onClick={[Function]}
     >
       contact us
     </div>

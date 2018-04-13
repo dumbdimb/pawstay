@@ -2,6 +2,7 @@
     background-color: #7CABDC;
     width: 100%;
     position: fixed;
+    top: 0;
     z-index: 100;
 }
 
@@ -11,7 +12,6 @@
     justify-content: space-around;
     height: 140px;
     width: 100%;
-    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -22,16 +22,18 @@
     vertical-align: center;
     background-image: url('../images/logo.svg');
     background-repeat: no-repeat;
+    cursor: pointer;
 }
 
 .toolbar__menu-item {
     color: white;
     font-size: 55px;
-    font-family: 'primer print';
+    font-family: 'primer print', Verdana;
     line-height: 140px;
     padding-left: 50px;
     padding-right: 50px;
     height: 140px;
+    cursor: pointer;
 
     &:hover {
         color: #7CABDC;

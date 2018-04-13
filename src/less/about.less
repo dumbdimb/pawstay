@@ -1,0 +1,115 @@
+.about {
+    margin-top: 170px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.about__header {
+    color: #7CABDC;
+    font-family: 'Louis George Cafe Bold', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 72px;
+    width: 100vw;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about__block {
+    padding: 20px;
+}
+
+.about__title {
+    color: #7CABDC;
+    font-size: 52px;
+    font-family: 'Shorelines Script Bold', sans-serif;
+}
+
+.about__description {
+    font-size: 30px;
+    font-family: 'primer print', sans-serif;
+}
+
+.about__clarissa {
+    display: flex;
+    flex-direction: row;
+    min-height: 200px;
+}
+
+.about__darby {
+    display: flex;
+    flex-direction: row-reverse;
+    min-height: 200px;
+}
+
+.about__darby .about__title {
+    width: 100%;
+    text-align: right;
+}
+
+.about__darby .about__description {
+    text-align: right;
+}
+
+.about__clarissa__picture {
+    background-image: url("../images/clarissa.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-width: 250px;
+    margin-right: 30px;
+}
+
+.about__darby__picture {
+    background-image: url("../images/darby_on_sofa.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-width: 250px;
+    margin-left: 30px;
+}
+
+@media (max-width: 1200px) {
+    .about {
+        margin-top: 120px;
+    }
+}
+
+@media (max-width: 992px) {
+    .about {
+        margin-top: 100px;
+    }
+
+    .about__block {
+        display: block;
+    }
+
+    .about__title {
+        width: 100vw;
+        text-align: center;
+    }
+
+    .about__description {
+        width: 100vw;
+    }
+
+    .about__darby .about__title {
+        width: 100vw;
+        text-align: center;
+    }
+
+    .about__darby .about__description {
+        width: 100vw;
+        text-align: left;
+    }
+
+    .about__clarissa__picture, .about__darby__picture {
+        width: 100vw;
+        height: 32vw;
+        margin-top: 5vw;
+        background-size: contain;
+        background-position: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .about {
+        margin-top: 50px;
+    }
+}

@@ -16,4 +16,12 @@ describe('Pawstay', () => {
     it('renders coorectly', () => {
         expect(renderer.create(<Pawstay/>).toJSON()).toMatchSnapshot();
     });
+
+    describe('changePage', () => {
+        it('changes currentPage to the parameter with which it is called', () => {
+            tree.find('.root__toolbar').props().changePage('services');
+
+            expect(tree.update().state('currentPage')).toEqual('services');
+        });
+    });
 });
