@@ -1,8 +1,8 @@
 import React from 'react';
 
 const AboutPage = () => {
-    return <div className='about'>
-        <div className='about__header'>hey, we are...</div>
+    return <div className='about page'>
+        <div className='header'>hey, we are...</div>
         <div className='about__clarissa about__block'>
             <div className='about__clarissa__picture'/>
             <div className='about__text'>

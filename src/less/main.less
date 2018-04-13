@@ -2,6 +2,7 @@
 @import "toolbar";
 @import "home";
 @import "about";
+@import "service";
 
 body {
     margin: 0;
@@ -11,4 +12,37 @@ html {
     margin: 0;
     padding: 0;
     height: 100%;
+}
+
+.page {
+    margin-top: 170px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.header {
+    color: #7CABDC;
+    font-family: 'Louis George Cafe Bold', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 72px;
+    width: 100vw;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 1200px) {
+    .page {
+        margin-top: 120px;
+    }
+}
+
+@media (max-width: 992px) {
+    .page {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .page {
+        margin-top: 50px;
+    }
 }

@@ -1,0 +1,57 @@
+.service__block {
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    display: flex;
+}
+
+.service__block--boarding {
+    flex-direction: row-reverse;
+}
+
+.service__block--daycare {
+    flex-direction: row;
+}
+
+.service__picture {
+    min-width: 50%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.service__picture--boarding {
+    background-image: url('../images/boarding.jpg');
+}
+
+.service__picture--daycare {
+    background-image: url('../images/daycare.jpg');
+}
+
+.service__title {
+    color: #7CABDC;
+    font-size: 52px;
+    font-family: 'Shorelines Script Bold', sans-serif;
+    text-align: center;
+}
+
+.service__description {
+    font-size: 30px;
+    font-family: 'primer print', sans-serif;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+@media (max-width: 992px) {
+    .service__block {
+        display: block;
+        margin-top: 0;
+        margin-bottom: 5vh;
+    }
+
+    .service__picture {
+        min-height: 20vh;
+        margin-top: 5vh;
+        margin-bottom: 2vh;
+    }
+}

@@ -2,10 +2,10 @@
 
 exports[`AboutPage renders coorectly 1`] = `
 <div
-  className="about"
+  className="about page"
 >
   <div
-    className="about__header"
+    className="header"
   >
     hey, we are...
   </div>
