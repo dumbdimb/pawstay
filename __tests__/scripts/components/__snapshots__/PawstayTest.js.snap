@@ -58,7 +58,7 @@ exports[`Pawstay renders coorectly 1`] = `
       <div
         className="home__blurb__who-we-are"
       >
-        dog boarding and daycare
+        dog boarding and daycare.
       </div>
     </div>
     <div

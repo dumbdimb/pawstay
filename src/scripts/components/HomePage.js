@@ -6,7 +6,7 @@ const HomePage = () => {
             <div className='home__blurb__hello'>hello</div>
             <div className='home__blurb__who-we-are'>we are</div>
             <div className='home__blurb__who-we-are'>a personal owned and home based</div>
-            <div className='home__blurb__who-we-are'>dog boarding and daycare</div>
+            <div className='home__blurb__who-we-are'>dog boarding and daycare.</div>
         </div>
         <div className='home__darby'/>
     </div>;
