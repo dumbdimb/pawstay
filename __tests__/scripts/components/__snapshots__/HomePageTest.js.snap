@@ -5,9 +5,6 @@ exports[`HomePage renders correctly 1`] = `
   className="home"
 >
   <div
-    className="home__darby"
-  />
-  <div
     className="home__blurb"
   >
     <div
@@ -31,5 +28,8 @@ exports[`HomePage renders correctly 1`] = `
       dog boarding and daycare
     </div>
   </div>
+  <div
+    className="home__darby"
+  />
 </div>
 `;
