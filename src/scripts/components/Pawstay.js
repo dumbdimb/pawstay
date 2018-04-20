@@ -4,6 +4,7 @@ import Toolbar from './Toolbar';
 import HomePage from './HomePage';
 import AboutPage from './AboutPage';
 import ServicePage from './ServicePage';
+import ContactPage from './ContactPage';
 
 class Pawstay extends React.Component {
     constructor(props, context) {
@@ -17,7 +18,6 @@ class Pawstay extends React.Component {
     }
 
     changePage(toPage) {
-        // 'about', 'services', 'contact';
         this.setState({
             currentPage: toPage
         });
@@ -28,6 +28,8 @@ class Pawstay extends React.Component {
             return <AboutPage/>;
         } else if (this.state.currentPage === 'services') {
             return <ServicePage/>
+        } else if (this.state.currentPage === 'contact') {
+            return <ContactPage/>
         }
         return <HomePage/>;
     }

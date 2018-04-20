@@ -1,0 +1,119 @@
+.contact__preheader {
+    text-align: center;
+    font-family: 'primer print', sans-serif;
+    font-size: 28px;
+}
+
+.contact__header {
+    text-align: center;
+    font-family: 'Louis George Cafe Bold', sans-serif;
+    font-size: 80px;
+    color: #7CABDC;
+    margin-top: 10px;
+}
+
+.contact__subheader {
+    text-align: center;
+    font-family: 'primer print', sans-serif;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contact-form__field {
+    display: block;
+    width: 40vw;
+    min-height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 60px;
+    font-family: 'primer print', sans-serif;
+    border: 1.5px solid #7CABDC;
+    border-radius: 15px;
+    padding: 0;
+    padding-left: 15px;
+}
+
+.contact-form__field--body {
+    height: 208px;
+    resize: none;
+}
+
+.contact-form__submit {
+    height: 60px;
+    width: 40vw;
+    color: white;
+    font-family: 'Louis George Cafe Bold', sans-serif;
+    background-color: #7CABDC;
+    text-align: center;
+    cursor: pointer;
+    font-size: 24px;
+    line-height: 60px;
+    border-radius: 15px;
+}
+
+.contact__location {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    position: absolute;
+    left: 50vw;
+    transform: translateX(-50%);
+    color: #7CABDC;
+    font-family: 'Louis George Cafe Bold', sans-serif;
+    font-size: 25px;
+}
+
+.contact__location__pin-icon {
+    background-image: url('../images/pin.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+@media (max-width: 992px) {
+    .contact__preheader {
+        font-size: 24px;
+    }
+
+    .contact__subheader {
+        font-size: 24px;
+    }
+
+    .contact-form {
+        display: block;
+        margin-top: 50px;
+    }
+
+    .contact-form__field {
+        width: 80vw;
+        height: 100px;
+        line-height: 100px;
+        font-size: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contact-form__field--body {
+        height: 330px;
+    }
+
+    .contact-form__submit {
+        width: 80vw;
+        height: 100px;
+        line-height: 100px;
+        font-size: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
