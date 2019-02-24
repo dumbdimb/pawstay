@@ -2,7 +2,6 @@ import React from 'react';
 
 import Toolbar from './Toolbar';
 import HomePage from './HomePage';
-import AboutPage from './AboutPage';
 import ServicePage from './ServicePage';
 import ContactPage from './ContactPage';
 
@@ -24,9 +23,7 @@ class Pawstay extends React.Component {
     }
 
     displayedPage() {
-        if (this.state.currentPage === 'about') {
-            return <AboutPage/>;
-        } else if (this.state.currentPage === 'services') {
+        if (this.state.currentPage === 'services') {
             return <ServicePage/>
         } else if (this.state.currentPage === 'contact') {
             return <ContactPage/>
