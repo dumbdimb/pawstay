@@ -32,7 +32,7 @@ class ContactPage extends React.Component {
         return <div className='contact-page'>
             <div className='contact__header'>Contact Us</div>
             <div className='contact__subheader'>
-                <div>to ask about spot availability</div><div>&nbsp;or make a meet and greet appointment!</div>
+                <span>to ask about spot availability</span><span> or make a meet and greet appointment!</span>
             </div>
             <div className='contact-form'>
                 <input type='text' className='contact-form__field' name='ownerName' placeholder='*Name of the dog owner' onChange={this.changeFormState}/>
