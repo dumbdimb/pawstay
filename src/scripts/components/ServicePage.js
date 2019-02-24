@@ -20,8 +20,8 @@ const ServicePage = () => {
             </div>
         </div>
         <div className='service__disclaimer'>
-            <span>Note:&nbsp;</span>
-            <span>to ensure the dog&apos;s comfort and safety, we only accept&nbsp;</span>
+            <span>Note: </span>
+            <span>to ensure the dog&apos;s comfort and safety, we only accept </span>
             <span>up to 2 dogs per day, based on size, breed, age, and personality.</span></div>
         <div className='service__footer'/>
     </div>;
