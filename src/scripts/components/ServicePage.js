@@ -16,7 +16,7 @@ const ServicePage = () => {
             <div className='service__text'>
                 <div className='service__title'>Daycare</div>
                 <div className='service__subtitle'> - starts from $20/day (up to 12 hours)</div>
-                <div className='service__description'>Worry not about your dog who has to spend a day alone! Let your dog come to our place, where it&apos;s filled with toys and fun. Your dog will have walks or runs and a great time playing. Your dog’s day recap with pictures will be sent to you at the end of the stay.</div>
+                <div className='service__description'>Worry not about your dog who has to spend a day alone! Let your dog come to our place, where it&apos;s filled with toys and fun. Your dog will have walks or runs and a great time playing. Your dog&apos;s day recap with pictures will be sent to you at the end of the stay.</div>
             </div>
         </div>
         <div className='service__disclaimer'>
