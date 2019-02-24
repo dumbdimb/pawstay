@@ -1,5 +1,5 @@
 .toolbar {
-    background-color: #7CABDC;
+    background-color: white;
     width: 100%;
     position: fixed;
     top: 0;
@@ -9,16 +9,15 @@
 .toolbar__content {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    height: 140px;
+    height: 77px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .toolbar__logo {
-    width: 300px;
-    margin-top: 12.5px;
+    margin-left: 30px;
+    width: 200px;
     vertical-align: center;
     background-image: url('../images/logo.svg');
     background-repeat: no-repeat;
@@ -26,13 +25,12 @@
 }
 
 .toolbar__menu-item {
-    color: white;
-    font-size: 55px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 24pt;
     font-family: 'primer print', Verdana;
-    line-height: 140px;
+    line-height: 77px;
     padding-left: 50px;
     padding-right: 50px;
-    height: 140px;
     cursor: pointer;
 
     &:hover {
@@ -41,54 +39,72 @@
     }
 }
 
-@media (max-width: 1200px) {
-    .toolbar__content {
-        height: 100px;
-    }
-
-    .toolbar__logo {
-        width: 250px;
-    }
-
-    .toolbar__menu-item {
-        font-size: 48px;
-        line-height: 100px;
-        height: 100px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-}
-
-@media (max-width: 992px) {
-    .toolbar__content {
-        height: 80px;
-    }
-
-    .toolbar__logo {
-        width: 150px;
-    }
-
-    .toolbar__menu-item {
-        font-size: 40px;
-        line-height: 80px;
-        height: 80px;
-    }
-}
-
 @media (max-width: 768px) {
     .toolbar__content {
-        height: 50px;
+        height: 35pt;
     }
 
     .toolbar__logo {
-        width: 80px;
+        margin-left: 15px;
+        width: 110px;
     }
 
     .toolbar__menu-item {
-        font-size: 24px;
-        line-height: 50px;
-        height: 50px;
-        padding-left: 8px;
-        padding-right: 8px;
+        font-size: 12pt;
+        line-height: 35pt;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
+
+// @media (max-width: 1200px) {
+//     .toolbar__content {
+//         height: 100px;
+//     }
+
+//     .toolbar__logo {
+//         width: 250px;
+//     }
+
+//     .toolbar__menu-item {
+//         font-size: 48px;
+//         line-height: 100px;
+//         height: 100px;
+//         padding-left: 20px;
+//         padding-right: 20px;
+//     }
+// }
+
+// @media (max-width: 992px) {
+//     .toolbar__content {
+//         height: 80px;
+//     }
+
+//     .toolbar__logo {
+//         width: 150px;
+//     }
+
+//     .toolbar__menu-item {
+//         font-size: 40px;
+//         line-height: 80px;
+//         height: 80px;
+//     }
+// }
+
+// @media (max-width: 768px) {
+//     .toolbar__content {
+//         height: 50px;
+//     }
+
+//     .toolbar__logo {
+//         width: 80px;
+//     }
+
+//     .toolbar__menu-item {
+//         font-size: 24px;
+//         line-height: 50px;
+//         height: 50px;
+//         padding-left: 8px;
+//         padding-right: 8px;
+//     }
+// }

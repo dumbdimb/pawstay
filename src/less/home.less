@@ -1,81 +1,66 @@
-.home__darby {
-    background-size: cover;
-    background-image: url('../images/darby_with_tennis_ball.jpg');
+.home {
+    padding-top: 77pt;
 }
 
-.home__blurb__hello {
-    font-family: "Shorelines Script Bold";
+.home__hero-image {
+    position: relative;
+    background-image: url('../images/darby-on-grass.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100vw;
+    height: 49.8vw;
+}
+
+.home__title {
+    font-family: "Louis George Cafe Bold", Arial, sans-serif;
+    font-weight: bold;
+    text-align: right;
+    font-size: 32pt;
     color: #7CABDC;
-    text-align: center;
-    width: 100%;
+    padding-top: 2vw;
+    padding-right: 2vw;
 }
 
-.home__blurb__who-we-are {
-    font-family: "Louis George Cafe";
-    color: #7CABDC;
-    text-align: center;
-    width: 100%;
+.home__body {
+    font-family: "Louis George Cafe", Arial, sans-serif;
+    text-align: right;
+    font-size: 20pt;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    padding-left: 6vw;
+    padding-right: 2vw;
 }
 
-@media (orientation: landscape) {
+.home__footer {
+    width: 100vw;
+    height: 16.8vw;
+    background-image: url('../images/darby-in-car.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media (max-width: 768px) {
     .home {
-        display: flex;
-        flex-direction: row-reverse;
+        position: relative;
+        box-sizing: border-box;
+        min-height: 100vh;
+        padding-top: 35pt;
     }
 
-    .home__darby {
-        width: 50%;
-        height: 100%;
-        background-position: top;
+    .home__title {
+        font-size: 14pt;
     }
 
-    .home__blurb {
-        width: 50%;
-        padding-top: 40vh;
+    .home__body {
+        font-size: 13pt;
+        padding-bottom: 35vw;
     }
 
-    .home__blurb__hello {
-        font-size: 8vh;
-    }
-
-    .home__blurb__who-we-are {
-        font-size: 3vh;
-    }
-}
-
-@media (orientation: landscape) and (max-width: 768px) {
-    .home__blurb {
-        padding-top: 35vh;
-    }
-
-    .home__blurb__hello {
-        font-size: 12vh;
-    }
-
-    .home__blurb__who-we-are {
-        font-size: 4vh;
-    }
-}
-
-@media (orientation: portrait) {
-    .home__darby {
-        background-size: cover;
-        height: 50vh;
-        width: 100vw;
-    }
-
-    .home__blurb {
-        width: 100vw;
-        padding-top: 12vh;
-        height: 38vh;
-    }
-
-    .home__blurb__hello {
-        font-size: 16vw;
-        margin-bottom: -5vw;
-    }
-
-    .home__blurb__who-we-are {
-        font-size: 5vw;
+    .home__footer {
+        position: absolute;
+        bottom: 0;
+        background-image: url('../images/darby-in-car2.jpg');
+        height: 33.5vw;
     }
 }

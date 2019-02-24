@@ -34,7 +34,7 @@ const createConfig = () => {
                 },
                 {
                     test: /\.(jpg|svg|png)$/,
-                    loader: 'url-loader?limit=10000&name=images/[name]-[hash].[ext]',
+                    loader: 'url-loader?limit=10000&name=images/[name].[ext]',
                     include: path.join(__dirname, 'src', 'images')
                 }
             ]
