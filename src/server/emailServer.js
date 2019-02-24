@@ -35,9 +35,11 @@ function sendEmail(req, res) {
         const rawMessage = Buffer.from(
             'From: jyaoma@gmail.com\r\n' +
             'To: graciella.clarissa@gmail.com\r\n' +
-            `Subject: [Pawstay Request] ${body.subject}\r\n\r\n` +
+            `Subject: Pawstay Request\r\n\r\n` +
         
-            `${body.owner} <${body.email}> has requested that you watch ${body.dog}.\r\n\r\n` +
+            `${body.owner} has requested that you watch ${body.dog}.\r\n`+
+            `E-mail: ${body.email}\r\n`+
+            `Phone: ${body.phone}\r\n\r\n` +
             `"${body.body}"`)
             .toString('base64')
             .replace(/\+/g, '-')

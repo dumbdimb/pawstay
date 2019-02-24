@@ -19,8 +19,10 @@ const ServicePage = () => {
                 <div className='service__description'>Worry not about your dog who has to spend a day alone! Let your dog come to our place, where it’s filled with toys and fun. Your dog will have walks or runs and a great time playing. Your dog’s day recap with pictures will be sent to you at the end of the stay.</div>
             </div>
         </div>
-        <div className='service__disclaimer'>Note: to ensure the dog’s comfort and safety, we only accept up to 2 dogs per day,
-        <br/>based on size, breed, age, and personality.</div>
+        <div className='service__disclaimer'>
+            <span>Note:&nbsp;</span>
+            <span>to ensure the dog’s comfort and safety, we only accept&nbsp;</span>
+            <span>up to 2 dogs per day, based on size, breed, age, and personality.</span></div>
         <div className='service__footer'/>
     </div>;
 }

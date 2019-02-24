@@ -10,7 +10,7 @@ class ContactPage extends React.Component {
             ownerName: '',
             dogName: '',
             ownerEmail: '',
-            subject: '',
+            ownerPhone: '',
             body: ''
         }
 
@@ -25,7 +25,7 @@ class ContactPage extends React.Component {
     }
 
     sendEmail() {
-        GoogleMailApiClient.sendMessage(this.state.ownerName, this.state.dogName, this.state.ownerEmail, this.state.subject, this.state.body);
+        GoogleMailApiClient.sendMessage(this.state.ownerName, this.state.dogName, this.state.ownerEmail, this.state.ownerPhone, this.state.body);
     }
 
     render() {
